@@ -5,7 +5,7 @@ import { fileURLToPath, URL } from 'node:url';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/Tribal-Scholar/',
+  base: '/Tribal-scholor/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
